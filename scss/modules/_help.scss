@@ -1,0 +1,46 @@
+.section-help {
+	background: #333333;
+	
+}
+.help {
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-family: $aleo;
+	min-height: 340px;
+	height: 100%;
+	font-size: 36px;
+	text-transform: capitalize;
+	text-align: center;
+	
+	&__ico {
+		font-size: 70px;
+		margin-bottom: 20px;
+
+	}
+	
+	&__search {
+
+		&--ico {
+			color: $blue;
+		}
+	}
+	&__select {
+		position: relative;
+
+
+
+		&--ico {
+			color: #ec5e5e;
+		}
+	}
+
+	&__book {
+		
+		&--ico {
+			color: $blue;
+		}
+	}
+}

@@ -1,0 +1,94 @@
+.header {
+	background: url('../images/header.jpg') no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	&__text {
+		padding-top: 260px;
+		font-family: $josefin;
+		
+		&--title {
+			font-size: 48px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			margin-bottom: 10px;
+		}
+
+		&--desc {
+			font-size: 22px;
+			letter-spacing: 8px;
+			text-transform: capitalize;
+			margin-bottom: 55px;
+			}
+
+	}
+
+	&__link {
+		color: #FFF;
+		text-decoration: none;
+		
+		
+	}
+
+	&__scroll {
+		font-family: $josefin;
+		margin-top: 120px;
+		letter-spacing: 3px;
+		
+		&--arrow {
+			font-size: 25px;
+		}
+	}
+
+}
+
+.search {
+	background: #FFF;
+	max-width: 650px;
+	width: 100% ;
+	margin: 0 auto;
+	position: relative;
+	line-height: 55px;
+	padding: 1px;
+	text-align: left;
+	
+	
+	&__place {
+		font-family: $josefin;
+		font-size: 14px;
+		color: #999999;
+		width: 80%;
+		text-transform: capitalize;
+		text-align: center;
+		letter-spacing: 3px;
+		
+
+	}
+	&__button {
+		font-family: $aleo;
+		font-size: 14px;
+		line-height: 55px;
+		text-align: right;
+		position: absolute;
+		right: 1px;
+		top: 1px;
+		letter-spacing: 1px;
+		width: 20%;
+		text-transform: uppercase;
+		color: #fff;
+		background: $blue;
+		text-align: center;
+		cursor: pointer;
+		
+		
+	}
+}
+.icon-search{ 
+font-size: 25px; 
+vertical-align: middle;}

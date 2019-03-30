@@ -1,0 +1,54 @@
+.section-choose {
+	background: url('../images/choose.jpg') no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	min-height: 100vh;
+	font-family: $aleo;
+}
+
+.choose {
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	
+	&__text {
+		margin-top: 200px;
+
+		width: 45%;
+
+	}
+
+	&__title {
+		margin-bottom: 65px;
+		font-size: 36px;
+		text-transform: capitalize;
+		
+	}
+
+	&__desc {
+		color: #e8e8e8;
+		font-family: $josefin;
+		margin-bottom: 50px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		line-height: 26px;
+		
+		&--first {
+			padding-bottom: 35px;
+		}
+		
+	}
+	&__button {
+		text-decoration: none;
+	}
+
+	&__images {
+		width: 45%;
+		margin-top: 120px;
+		
+		&--top {
+			margin-bottom: 5px;
+		}
+	}
+}
